@@ -1,0 +1,137 @@
+
+.navbar-google {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.navbar-item-google {
+    margin: 10px;
+}
+
+
+.center-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.rounded-input {
+  display: flex;
+  z-index: 3;
+  position: relative;
+  min-height: 44px;
+  background: #fff;
+  border: 1px solid #dfe1e5;
+  box-shadow: none;
+  border-radius: 24px;
+  margin: 0 auto;
+  width: 584px;
+  max-width: 584px;
+  margin-top: 30px;
+  padding-left: 20px; 
+}
+
+.btn-google {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: Arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+.appbar {
+  font-family: Arial,sans-serif;
+  padding: 0;
+  border: 0;
+  font-weight: inherit;
+  font-style: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+  color: #d93025;
+  font-size: 20px;
+  margin: 25px 35px;
+}
+
+
+.border-line {
+  border-bottom: 1px solid #ebebeb;
+}
+
+.h2-advanced {
+  font-size: 16px;
+  color: #333333;
+  font-family: arial, sans-serif;
+}
+
+.div-advanced {
+  margin: 50px;
+}
+
+.row-input {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 1%;
+}
+
+.left {
+  width: 21%;
+}
+
+.right {
+  width: 385px;
+}
+
+.btn-advanced {
+  box-shadow: none;
+  background-color: #4d90fe;
+  border: 1px solid #3079ed;
+  color: #fff;
+  border-radius: 5px; /* Add this line to make the corners rounded */
+  padding: 10px 20px; /* Optional: Add padding for a nicer button */
+  cursor: pointer; /* Optional: Change cursor to pointer on hover */
+}
+
+.btn-div {
+  display: flex;
+  justify-content: flex-end;
+  width: 600px;
+  margin-top: 1%;
+}
+
+
+
+
+
+/* unvisited link */
+a:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: rgb(0, 0, 0);
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color:rgb(0, 0, 0);
+  }
+  
+  /* selected link */
+  a:active {
+    color: rgb(0, 0, 0);
+  }
